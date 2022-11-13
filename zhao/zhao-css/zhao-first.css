@@ -169,3 +169,8 @@ nav a:hover {
   color: #2ea7a9;
   font-weight: bold;
 }
+
+iframe{
+  width: 100vw;
+  height: 100vh;
+}
