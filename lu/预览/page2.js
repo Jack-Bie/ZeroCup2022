@@ -14,14 +14,18 @@ const sectionBlock = Array.from(
 window.addEventListener("scroll", function () {
   sectionBlock.forEach((el) => {
     const { bottom, top, height } = el.getBoundingClientRect();
-    if (bottom <= 0 || top >= wh) return;
-    const y = document.documentElement.scrollTop * 0.28;
+    // if (bottom <= 0 || top >= wh) return;
+    // const y = document.documentElement.scrollTop * 0.28;
+
+    const y = $(window).scrollTop() * 0.28;
+
     el.style.backgroundPosition = `center -${y}px`;
+    console.log(y);
   });
 });
 
 //传送门特效
-const time = 2000;
+const time = 1000;
 var portal = parent.document.getElementById("portal");
 console.log(portal);
 function portalNone() {

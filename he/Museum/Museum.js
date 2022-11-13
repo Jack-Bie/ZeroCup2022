@@ -175,7 +175,7 @@ let ifOut = 0;
 //关闭
 console.log($(`#pic${index}`));
 console.log(`${index}`);
-$(".main-pic").click(function () {
+$(".content").click(function () {
   $(`#pic${index}`).fadeIn("slow");
   ifOut = 1;
 });
@@ -185,7 +185,7 @@ $(".all-pic").click(function () {
 });
 
 //传送门特效
-const time = 2000;
+const time = 1000;
 var portal = parent.document.getElementById("portal"); //获取父页面的传送门视频
 function portalNone() {
   //隐藏视频
