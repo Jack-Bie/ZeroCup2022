@@ -43,10 +43,10 @@ body {
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 700px;
+  width: 300px;
   transition: all 0.5s;
   cursor: pointer;
-  margin: 5px;
+  margin: 12px;
 }
 
 /*按钮箭头*/
@@ -80,8 +80,9 @@ body {
   display: flex;
   width: 90vw;
   max-width: 1200px;
-  height: 600px;
+  height: 570px;
   overflow: hidden;
+  margin-bottom: 75px;
 }
 .item {
   position: relative;

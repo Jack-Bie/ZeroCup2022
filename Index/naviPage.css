@@ -52,7 +52,7 @@ body {
 /* 轮播图的样式表 */
 .slideshow {
   position: absolute;
-  top: 17em;
+  top: 14em;
   left: 5vw;
   width: 60em;
   height: 30em;
@@ -86,7 +86,7 @@ body {
   width: 60em;
   height: 10em;
   left: 5vw;
-  top: 47em;
+  top: 44em;
   background-color: rgba(0, 0, 0, 0.5);
   border-width: 0.1em;
   border-style: solid;
@@ -236,7 +236,7 @@ body {
 .small-images {
   position: absolute;
   left: 75em;
-  top: 10em;
+  top: 7em;
   width: 60em;
   height: 55em;
   padding: 2em;
